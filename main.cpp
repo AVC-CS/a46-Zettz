@@ -18,6 +18,12 @@ int main()
     double finalScholarship = scholarship * factor;
 
     cout << setprecision(2) << fixed;
+    /* **************************************************
+    **************************************************
+    Do not change the output format. The output should be in the following format:
+    Decided Factor: <factor>, Final Scholarship Amount: <finalScholarship>
+    **************************************************
+    ************************************************** */
     cout << "Decided Factor: " << factor << ", Final Scholarship Amount: " << finalScholarship << endl;
 
     return 0;
